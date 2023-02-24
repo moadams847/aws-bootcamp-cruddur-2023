@@ -6,4 +6,6 @@
 
 I was able to install and then run aws CLI commands in gitpod.
 
-I had issues with cloudWatch alarm and SNS but I was able to resolve it
+I had issues with cloudWatch alarm 
+![AWS cloudwatch issues](assets/aws_alarm_week0.png)
+
