@@ -7,3 +7,7 @@ aws sns subscribe \
     --account-id 520723858779 \
     --budget file://aws/json/budget.json \
     --notifications-with-subscribers file://aws/json/notifications-with-subscribers.json
+
+
+    ##This docker command works for me:
+    ##docker run --rm -p 4567:4567 -it  -e FRONTEND_URL -e BACKEND_URL backend-flask
