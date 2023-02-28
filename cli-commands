@@ -11,3 +11,9 @@ aws sns subscribe \
 
     ##This docker command works for me:
     ##docker run --rm -p 4567:4567 -it  -e FRONTEND_URL -e BACKEND_URL backend-flask
+
+HONEYCOMB_API_KEY="dhXo7nxllYRR4QcX6K5OzA"
+gp env HONEYCOMB_API_KEY="dhXo7nxllYRR4QcX6K5OzA"
+
+export HONEYCOMB_SERVICE_NAME="cruddur"
+gp env HONEYCOMB_SERVICE_NAME="cruddur"
