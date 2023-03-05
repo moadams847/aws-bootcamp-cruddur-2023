@@ -1,3 +1,5 @@
+import ReactDOM from 'react-dom'
+
 import './MessageForm.css';
 import React from "react";
 import process from 'process';

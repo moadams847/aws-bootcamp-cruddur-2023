@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import './ActivityContent.css';
 
 import { Link } from "react-router-dom";

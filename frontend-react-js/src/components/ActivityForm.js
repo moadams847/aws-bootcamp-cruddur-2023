@@ -1,3 +1,5 @@
+import ReactDOM from 'react-dom'
+
 import './ActivityForm.css';
 import React from "react";
 import process from 'process';

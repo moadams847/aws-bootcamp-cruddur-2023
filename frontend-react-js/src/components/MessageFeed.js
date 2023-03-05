@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import './MessageFeed.css';
 import MessageItem from './MessageItem';
 

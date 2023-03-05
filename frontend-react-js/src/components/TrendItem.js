@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import './TrendItem.css';
 
 export default function TrendItem(props) {

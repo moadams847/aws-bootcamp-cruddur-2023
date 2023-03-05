@@ -1,3 +1,5 @@
+import ReactDOM from 'react-dom'
+
 import './ReplyForm.css';
 import React from "react";
 import process from 'process';

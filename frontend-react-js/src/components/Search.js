@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import './Search.css';
 
 export default function ActivityFeed(props) {

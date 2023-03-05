@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import {ReactComponent as ShareIcon} from './svg/share.svg';
 
 export default function ActivityActionRepost(props) { 

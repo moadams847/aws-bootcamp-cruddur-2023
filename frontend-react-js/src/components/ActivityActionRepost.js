@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 import {ReactComponent as RepostIcon} from './svg/repost.svg';
 
 export default function ActivityActionRepost(props) { 

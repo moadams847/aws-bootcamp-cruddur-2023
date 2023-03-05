@@ -1,3 +1,5 @@
+import ReactDOM from 'react-dom'
+
 import './ProfileInfo.css';
 import {ReactComponent as ElipsesIcon} from './svg/elipses.svg';
 import React from "react";
