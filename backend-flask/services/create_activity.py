@@ -6,6 +6,7 @@ class CreateActivity:
       'errors': None,
       'data': None
     }
+    
 
     now = datetime.now(timezone.utc).astimezone()
 
