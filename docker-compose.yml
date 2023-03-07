@@ -35,6 +35,18 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend-react-js:/frontend-react-js
+    
+  #opentelemetry container
+  otel-collector:
+    image: "otel/opentelemetry-collector"
+    environment:
+      HONEYCOMB_API_KEY: "${HONEYCOMB_API_KEY}" # Same honeycomb api key used in the backend enviroment
+    command: [--config=/etc/otel-collector-config.yaml]
+    volumes:
+      - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml
+    ports:
+      - 14268:14268
+      - 4318:4318
 
   dynamodb-local:
     # https://stackoverflow.com/questions/67533058/persist-local-dynamodb-data-in-volumes-lack-permission-unable-to-open-databa

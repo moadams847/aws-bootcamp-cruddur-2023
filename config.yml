@@ -1,0 +1,24 @@
+receivers:
+  otlp:
+    protocols:
+      http:
+        cors:
+          allowed_origins: #Only way I got the CORS error to dissappear
+            - https://*
+            - http://*
+
+processors:
+  batch:
+
+exporters:
+  otlp:
+    endpoint: "api.honeycomb.io:443"
+    headers:
+      "x-honeycomb-team": "${HONEYCOMB_API_KEY}"
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [otlp]

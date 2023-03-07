@@ -1,3 +1,6 @@
+// this import is the first line in the file
+import './tracing.js'
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
