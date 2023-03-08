@@ -25,5 +25,5 @@ export AWS_SECRET_ACCESS_KEY=""
 export AWS_DEFAULT_REGION=""
 
 ----------------------------------
-export ROLLBAR_ACCESS_TOKEN="a409cafee1a0442194809d6ae4ff8dd2"
-gp env ROLLBAR_ACCESS_TOKEN="a409cafee1a0442194809d6ae4ff8dd2"
+export ROLLBAR_ACCESS_TOKEN=""
+gp env ROLLBAR_ACCESS_TOKEN=""
